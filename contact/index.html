@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>document.documentElement.classList.add('js')</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — AI Solar Boss</title>
+  <meta name="description" content="Book a 20-minute strategy call or send a project brief. Bring last month's utility bill — leave knowing whether you're sitting on 15–30% savings.">
+  <meta name="theme-color" content="#0B0C0E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%23FFB300'/%3E%3Ccircle cx='13' cy='13' r='4' fill='%23FFD873'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-head" id="siteHead">
+    <nav class="nav container" aria-label="Primary">
+      <a href="/" class="brand" aria-label="AI Solar Boss — home">
+        <span class="brand-mark" aria-hidden="true"></span>AI&nbsp;SOLAR<em>BOSS</em>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="/work/">Work</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/guide/">Guide</a></li>
+        <li><a href="/contact/" aria-current="page">Contact</a></li>
+        <li class="nav-cta"><a href="/contact/" class="btn btn-solid" data-magnetic>Book an audit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container" style="padding-bottom:2rem">
+      <span class="label">Contact</span>
+      <h1 class="h1">Twenty minutes.<br>Bring a bill.</h1>
+    </section>
+
+    <section class="section container" style="padding-top:1rem">
+      <div class="contact-grid">
+        <aside class="contact-aside reveal">
+          <p class="lead">The scoping call is free, direct, and short. Here's how it goes:</p>
+          <ul class="contact-points">
+            <li>You bring last month's utility bill (a PDF or a photo is fine).</li>
+            <li>We tell you — live — whether your consumption profile suggests a 15–30% opportunity, and which tier fits.</li>
+            <li>You get a fixed-fee quote in writing within 48 hours. It doesn't move afterward.</li>
+            <li>No slide deck, no "discovery workshop," no follow-up sequence if you say no.</li>
+          </ul>
+          <div class="contact-direct">
+            <span class="label label--dim no-slash" style="display:block;margin-bottom:.8rem">Prefer email?</span>
+            <a href="mailto:hello@aisolarboss.com">hello@aisolarboss.com</a>
+          </div>
+        </aside>
+
+        <form class="form reveal" action="https://formsubmit.co/hello@aisolarboss.com" method="POST">
+          <input type="hidden" name="_subject" value="New brief — aisolarboss.com">
+          <input type="hidden" name="_next" value="https://aisolarboss.com/contact/?sent=1">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="f-email">Work email</label>
+              <input id="f-email" name="email" type="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-company">Company / facility</label>
+              <input id="f-company" name="company" type="text" required>
+            </div>
+            <div class="field">
+              <label for="f-tier">Interested in</label>
+              <select id="f-tier" name="tier">
+                <option value="unsure">Not sure yet — advise me</option>
+                <option value="recon">Recon — 2-week X-ray</option>
+                <option value="blueprint">Blueprint — bankable plan</option>
+                <option value="command">Command — fractional energy boss</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-facility">Facility type &amp; rough monthly energy spend</label>
+            <input id="f-facility" name="facility" type="text" placeholder="e.g. Cold storage, ~₱2.4M/month" required>
+          </div>
+          <div class="field">
+            <label for="f-msg">What's going on with your energy?</label>
+            <textarea id="f-msg" name="message" placeholder="Rising bills? DOE deadline? An EPC quote you don't trust? Tell it straight."></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid btn-lg" data-magnetic>Send the brief <span class="arrow" aria-hidden="true">→</span></button>
+          <p class="form-fine">Sent to our inbox only — no lists, no drip campaigns. We reply within one business day.</p>
+          <p class="form-fine" id="sent-note" hidden style="color:var(--amber)">✓ Brief received. We'll reply within one business day.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a href="/" class="brand"><span class="brand-mark" aria-hidden="true"></span>AI&nbsp;SOLAR<em>BOSS</em></a>
+          <p>AI-powered energy audits, bankable solar design, and always-on optimization. Engineering-grade, standards-aligned, allergic to fluff.</p>
+        </div>
+        <div class="foot-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/work/">Work</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+            <li><a href="/guide/">Guide</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Engagements</h4>
+          <ul>
+            <li><a href="/pricing/#recon">Recon</a></li>
+            <li><a href="/pricing/#blueprint">Blueprint</a></li>
+            <li><a href="/pricing/#command">Command</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Direct</h4>
+          <ul>
+            <li><a href="mailto:hello@aisolarboss.com">hello@aisolarboss.com</a></li>
+            <li><a href="/contact/">Book a strategy call</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-fine">
+        <span>© <span id="year">2026</span> AI Solar Boss. All rights reserved.</span>
+        <span>ASHRAE 211 · RA 11285 · ISO 50001 · ISO 42001 · IEC 62446</span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+  <script>
+    /* Preselect tier from ?tier= and show sent confirmation from ?sent=1 */
+    (function () {
+      const p = new URLSearchParams(location.search);
+      const t = p.get('tier');
+      const sel = document.getElementById('f-tier');
+      if (t && sel && [...sel.options].some(o => o.value === t)) sel.value = t;
+      if (p.get('sent') === '1') {
+        const n = document.getElementById('sent-note');
+        if (n) n.hidden = false;
+      }
+    })();
+  </script>
+</body>
+</html>
