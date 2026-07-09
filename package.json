@@ -1,0 +1,14 @@
+{
+  "name": "aisolarboss.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Solar Boss — AI-powered energy audits, bankable solar design & always-on optimization. Zero-build static site (Three.js + GSAP + Lenis via CDN).",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "build": "echo 'Static site — no build step. Deploy the repository contents as-is.' && exit 0"
+  },
+  "keywords": ["energy-audit", "solar-pv", "ai", "static-site"],
+  "author": "AI Solar Boss <hello@aisolarboss.com>",
+  "license": "UNLICENSED"
+}
